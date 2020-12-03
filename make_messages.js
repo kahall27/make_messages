@@ -9,3 +9,6 @@ let subjectIndex = Math.floor(Math.random() * subjects.length);
 let activeVerbIndex = Math.floor(Math.random() * activeVerbs.length);
 let prepositionIndex = Math.floor(Math.random() * prepositions.length);
 let directObjectIndex = Math.floor(Math.random() * directObjects.length);
+
+//The following prints our weird statement.
+console.log(`The ${subjects[subjectIndex]} ${activeVerbs[activeVerbIndex]} ${prepositions[prepositionIndex]} the ${directObjects[directObjectIndex]}.`);
